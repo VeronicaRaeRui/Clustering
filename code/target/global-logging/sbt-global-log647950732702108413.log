@@ -1,0 +1,118 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mFormatting 1 Scala source ProjectRef(uri("file:/Users/raefang/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/CSE6250/hw3-release/code/"), "big-data-hw3")(compile) ...[0m
+[0m[[0m[0minfo[0m] [0m[0mReformatted 1 Scala source ProjectRef(uri("file:/Users/raefang/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/CSE6250/hw3-release/code/"), "big-data-hw3")(compile).[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/raefang/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/CSE6250/hw3-release/code/target/scala-2.11/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMetricsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Testing your metrics getPurity calculation *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  0 did not equal 1 (MetricsTest.scala:46)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLoadRddRawDataTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Testing your data loader *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  org.apache.spark.sql.AnalysisException: Path does not exist: file:/Users/raefang/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/CSE6250/hw3-release/code/Big Data Health/data/encounter_INPUT.csv;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.sql.execution.datasources.DataSource$.org$apache$spark$sql$execution$datasources$DataSource$$checkAndGlobPathIfNecessary(DataSource.scala:715)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.sql.execution.datasources.DataSource$$anonfun$15.apply(DataSource.scala:389)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.sql.execution.datasources.DataSource$$anonfun$15.apply(DataSource.scala:389)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.List.foreach(List.scala:392)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.TraversableLike$class.flatMap(TraversableLike.scala:241)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.List.flatMap(List.scala:355)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.sql.execution.datasources.DataSource.resolveRelation(DataSource.scala:388)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.sql.DataFrameReader.loadV1Source(DataFrameReader.scala:239)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFeatureConstructionTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructDiagnosticFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate one event *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(((patient,diagnostics),1.0)) was not equal to Array(((patient1,code1),1.0)) (FeatureConstructionTest.scala:48)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructDiagnosticFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate two different events *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Map((patient,diagnostics) -> 1.0) was not equal to Map((patient1,code1) -> 1.0, (patient1,code2) -> 1.0) (FeatureConstructionTest.scala:61)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructDiagnosticFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate two same events *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(((patient,diagnostics),1.0)) was not equal to Array(((patient1,code1),2.0)) (FeatureConstructionTest.scala:73)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructDiagnosticFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate three events with duplication *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Map((patient,diagnostics) -> 1.0) was not equal to Map((patient1,code1) -> 2.0, (patient1,code2) -> 1.0) (FeatureConstructionTest.scala:87)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructDiagnosticFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should filter *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(((patient,diagnostics),1.0)) was not equal to Array(((patient1,code2),1.0)) (FeatureConstructionTest.scala:100)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructMedicationFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate one event *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(((patient,med),1.0)) was not equal to Array(((patient1,code1),1.0)) (FeatureConstructionTest.scala:119)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructMedicationFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate two different events *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Map((patient,med) -> 1.0) was not equal to Map((patient1,code1) -> 1.0, (patient1,code2) -> 1.0) (FeatureConstructionTest.scala:132)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructMedicationFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate two same events *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(((patient,med),1.0)) was not equal to Array(((patient1,code1),2.0)) (FeatureConstructionTest.scala:144)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructMedicationFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate three events with duplication *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Map((patient,med) -> 1.0) was not equal to Map((patient1,code1) -> 1.0, (patient1,code2) -> 2.0) (FeatureConstructionTest.scala:158)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructMedicationFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should filter *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(((patient,med),1.0)) was not equal to Array(((patient1,code2),2.0)) (FeatureConstructionTest.scala:171)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructLabFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate one event *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(((patient,lab),1.0)) was not equal to Array(((patient1,code1),42.0)) (FeatureConstructionTest.scala:190)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructLabFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate two different events *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Map((patient,lab) -> 1.0) was not equal to Map((patient1,code1) -> 42.0, (patient1,code2) -> 24.0) (FeatureConstructionTest.scala:203)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructLabFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate two same events *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(((patient,lab),1.0)) was not equal to Array(((patient1,code1),33.0)) (FeatureConstructionTest.scala:215)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructLabFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate three events with duplication *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Map((patient,lab) -> 1.0) was not equal to Map((patient1,code1) -> 33.0, (patient1,code2) -> 7475.0) (FeatureConstructionTest.scala:229)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructLabFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should filter *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(((patient,lab),1.0)) was not equal to Array(((patient1,code2),7475.0)) (FeatureConstructionTest.scala:242)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstruct[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should give unique ID to codes *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array((Patient-NO-1,(10,[0,2,4],[1.0,2.0,3.0])), (Patient-NO-2,(10,[0,2,4],[1.0,2.0,3.0])), (Patient-NO-3,(10,[0,2,4],[1.0,2.0,3.0])), (Patient-NO-4,(10,[0,2,4],[1.0,2.0,3.0])), (Patient-NO-5,(10,[0,2,4],[1.0,2.0,3.0])), (Patient-NO-6,(10,[0,2,4],[1.0,2.0,3.0])), (Patient-NO-7,(10,[0,2,4],[1.0,2.0,3.0])), (Patient-NO-8,(10,[0,2,4],[1.0,2.0,3.0]))) was not equal to Array((patient1,[24.0,42.0])) (FeatureConstructionTest.scala:261)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstruct[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should give sparse vectors *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Map("Patient-NO-8" -> (10,[0,2,4],[1.0,2.0,3.0]), "Patient-NO-2" -> (10,[0,2,4],[1.0,2.0,3.0]), "Patient-NO-5" -> (10,[0,2,4],[1.0,2.0,3.0]), "Patient-NO-4" -> (10,[0,2,4],[1.0,2.0,3.0]), "Patient-NO-7" -> (10,[0,2,4],[1.0,2.0,3.0]), "Patient-NO-1" -> (10,[0,2,4],[1.0,2.0,3.0]), "Patient-NO-3" -> (10,[0,2,4],[1.0,2.0,3.0]), "Patient-NO-6" -> (10,[0,2,4],[1.0,2.0,3.0])) was not equal to Map("patient1" -> (3,[0,2],[42.0,24.0]), "patient2" -> (3,[1],[12.0])) (FeatureConstructionTest.scala:274)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mT2dmPhenotypeTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mtransform[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should give expected results *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  org.apache.spark.sql.AnalysisException: Path does not exist: file:/Users/raefang/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/CSE6250/hw3-release/code/Big Data Health/data/encounter_INPUT.csv;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.sql.execution.datasources.DataSource$.org$apache$spark$sql$execution$datasources$DataSource$$checkAndGlobPathIfNecessary(DataSource.scala:715)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.sql.execution.datasources.DataSource$$anonfun$15.apply(DataSource.scala:389)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.sql.execution.datasources.DataSource$$anonfun$15.apply(DataSource.scala:389)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.List.foreach(List.scala:392)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.TraversableLike$class.flatMap(TraversableLike.scala:241)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.List.flatMap(List.scala:355)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.sql.execution.datasources.DataSource.resolveRelation(DataSource.scala:388)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.sql.DataFrameReader.loadV1Source(DataFrameReader.scala:239)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mstat_calc[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should give expected results *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  org.apache.spark.sql.AnalysisException: Path does not exist: file:/Users/raefang/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/CSE6250/hw3-release/code/Big Data Health/data/encounter_INPUT.csv;[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.sql.execution.datasources.DataSource$.org$apache$spark$sql$execution$datasources$DataSource$$checkAndGlobPathIfNecessary(DataSource.scala:715)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.sql.execution.datasources.DataSource$$anonfun$15.apply(DataSource.scala:389)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.sql.execution.datasources.DataSource$$anonfun$15.apply(DataSource.scala:389)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.List.foreach(List.scala:392)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.TraversableLike$class.flatMap(TraversableLike.scala:241)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.List.flatMap(List.scala:355)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.sql.execution.datasources.DataSource.resolveRelation(DataSource.scala:388)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.sql.DataFrameReader.loadV1Source(DataFrameReader.scala:239)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 8 seconds, 166 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 21[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 21, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 21 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	edu.cse6250.phenotyping.T2dmPhenotypeTest[0m
+[0m[[0m[31merror[0m] [0m[0m	edu.cse6250.main.LoadRddRawDataTest[0m
+[0m[[0m[31merror[0m] [0m[0m	edu.cse6250.features.FeatureConstructionTest[0m
+[0m[[0m[31merror[0m] [0m[0m	edu.cse6250.clustering.MetricsTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 11 s, completed Sep 21, 2022 11:20:21 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

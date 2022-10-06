@@ -1,0 +1,368 @@
+2022-09-22 22:00:21,202 WARN ScalaTest-run org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-22 22:00:21,986 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-22 22:00:22,405 WARN ScalaTest-run-running-LoadRddRawDataTest org.apache.spark.SparkContext - Using an existing SparkContext; some configuration may not take effect.
+2022-09-22 22:00:28,021 WARN ScalaTest-run-running-LoadRddRawDataTest org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-22 22:00:32,121 ERROR Executor task launch worker for task 8 org.apache.spark.executor.Executor - Exception in task 0.0 in stage 6.0 (TID 8)
+java.lang.NullPointerException: null
+	at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:209) ~[classes/:na]
+	at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:207) ~[classes/:na]
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.util.Utils$.getIteratorSize(Utils.scala:1835) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_342]
+2022-09-22 22:00:32,121 ERROR Executor task launch worker for task 9 org.apache.spark.executor.Executor - Exception in task 1.0 in stage 6.0 (TID 9)
+java.lang.NullPointerException: null
+	at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:209) ~[classes/:na]
+	at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:207) ~[classes/:na]
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.util.Utils$.getIteratorSize(Utils.scala:1835) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_342]
+2022-09-22 22:00:32,155 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 1.0 in stage 6.0 (TID 9, localhost, executor driver): java.lang.NullPointerException
+	at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:209)
+	at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:207)
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236)
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at org.apache.spark.util.Utils$.getIteratorSize(Utils.scala:1835)
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162)
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2022-09-22 22:00:32,157 ERROR task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Task 1 in stage 6.0 failed 1 times; aborting job
+2022-09-22 22:02:47,220 WARN ScalaTest-run org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-22 22:02:47,970 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-22 22:02:48,366 WARN ScalaTest-run-running-LoadRddRawDataTest org.apache.spark.SparkContext - Using an existing SparkContext; some configuration may not take effect.
+2022-09-22 22:02:53,544 WARN ScalaTest-run-running-LoadRddRawDataTest org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-22 22:02:57,630 ERROR Executor task launch worker for task 9 org.apache.spark.executor.Executor - Exception in task 1.0 in stage 6.0 (TID 9)
+java.lang.NullPointerException: null
+	at edu.cse6250.main.Main$$anonfun$9.apply(Main.scala:209) ~[classes/:na]
+	at edu.cse6250.main.Main$$anonfun$9.apply(Main.scala:207) ~[classes/:na]
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.util.Utils$.getIteratorSize(Utils.scala:1835) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_342]
+2022-09-22 22:02:57,630 ERROR Executor task launch worker for task 8 org.apache.spark.executor.Executor - Exception in task 0.0 in stage 6.0 (TID 8)
+java.lang.NullPointerException: null
+	at edu.cse6250.main.Main$$anonfun$9.apply(Main.scala:209) ~[classes/:na]
+	at edu.cse6250.main.Main$$anonfun$9.apply(Main.scala:207) ~[classes/:na]
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.util.Utils$.getIteratorSize(Utils.scala:1835) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_342]
+2022-09-22 22:02:57,661 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 1.0 in stage 6.0 (TID 9, localhost, executor driver): java.lang.NullPointerException
+	at edu.cse6250.main.Main$$anonfun$9.apply(Main.scala:209)
+	at edu.cse6250.main.Main$$anonfun$9.apply(Main.scala:207)
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236)
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at org.apache.spark.util.Utils$.getIteratorSize(Utils.scala:1835)
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162)
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2022-09-22 22:02:57,667 ERROR task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Task 1 in stage 6.0 failed 1 times; aborting job
+2022-09-22 22:03:34,781 WARN ScalaTest-run org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-22 22:03:35,513 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-22 22:03:35,885 WARN ScalaTest-run-running-LoadRddRawDataTest org.apache.spark.SparkContext - Using an existing SparkContext; some configuration may not take effect.
+2022-09-22 22:03:41,297 WARN ScalaTest-run-running-LoadRddRawDataTest org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-22 22:03:45,531 ERROR Executor task launch worker for task 8 org.apache.spark.executor.Executor - Exception in task 0.0 in stage 6.0 (TID 8)
+java.lang.NullPointerException: null
+	at scala.collection.immutable.StringOps$.length$extension(StringOps.scala:47) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.immutable.StringOps.length(StringOps.scala:47) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.IndexedSeqOptimized$class.isEmpty(IndexedSeqOptimized.scala:27) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.immutable.StringOps.isEmpty(StringOps.scala:29) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.nonEmpty(TraversableOnce.scala:111) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.immutable.StringOps.nonEmpty(StringOps.scala:29) ~[scala-library-2.11.12.jar:na]
+	at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:204) ~[classes/:na]
+	at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:204) ~[classes/:na]
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$SpecificPredicate.eval(Unknown Source) ~[na:na]
+	at org.apache.spark.sql.execution.FilterExec$$anonfun$18$$anonfun$apply$2.apply(basicPhysicalOperators.scala:217) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.sql.execution.FilterExec$$anonfun$18$$anonfun$apply$2.apply(basicPhysicalOperators.scala:216) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at scala.collection.Iterator$$anon$13.hasNext(Iterator.scala:464) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.util.Utils$.getIteratorSize(Utils.scala:1833) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_342]
+2022-09-22 22:03:45,531 ERROR Executor task launch worker for task 9 org.apache.spark.executor.Executor - Exception in task 1.0 in stage 6.0 (TID 9)
+java.lang.NullPointerException: null
+	at scala.collection.immutable.StringOps$.length$extension(StringOps.scala:47) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.immutable.StringOps.length(StringOps.scala:47) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.IndexedSeqOptimized$class.isEmpty(IndexedSeqOptimized.scala:27) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.immutable.StringOps.isEmpty(StringOps.scala:29) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.TraversableOnce$class.nonEmpty(TraversableOnce.scala:111) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.immutable.StringOps.nonEmpty(StringOps.scala:29) ~[scala-library-2.11.12.jar:na]
+	at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:204) ~[classes/:na]
+	at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:204) ~[classes/:na]
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$SpecificPredicate.eval(Unknown Source) ~[na:na]
+	at org.apache.spark.sql.execution.FilterExec$$anonfun$18$$anonfun$apply$2.apply(basicPhysicalOperators.scala:217) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.sql.execution.FilterExec$$anonfun$18$$anonfun$apply$2.apply(basicPhysicalOperators.scala:216) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at scala.collection.Iterator$$anon$13.hasNext(Iterator.scala:464) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.util.Utils$.getIteratorSize(Utils.scala:1833) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_342]
+2022-09-22 22:03:45,564 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 0.0 in stage 6.0 (TID 8, localhost, executor driver): java.lang.NullPointerException
+	at scala.collection.immutable.StringOps$.length$extension(StringOps.scala:47)
+	at scala.collection.immutable.StringOps.length(StringOps.scala:47)
+	at scala.collection.IndexedSeqOptimized$class.isEmpty(IndexedSeqOptimized.scala:27)
+	at scala.collection.immutable.StringOps.isEmpty(StringOps.scala:29)
+	at scala.collection.TraversableOnce$class.nonEmpty(TraversableOnce.scala:111)
+	at scala.collection.immutable.StringOps.nonEmpty(StringOps.scala:29)
+	at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:204)
+	at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:204)
+	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$SpecificPredicate.eval(Unknown Source)
+	at org.apache.spark.sql.execution.FilterExec$$anonfun$18$$anonfun$apply$2.apply(basicPhysicalOperators.scala:217)
+	at org.apache.spark.sql.execution.FilterExec$$anonfun$18$$anonfun$apply$2.apply(basicPhysicalOperators.scala:216)
+	at scala.collection.Iterator$$anon$13.hasNext(Iterator.scala:464)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)
+	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)
+	at org.apache.spark.util.Utils$.getIteratorSize(Utils.scala:1833)
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162)
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2022-09-22 22:03:45,567 ERROR task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Task 0 in stage 6.0 failed 1 times; aborting job
+2022-09-22 22:21:19,197 WARN ScalaTest-run org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-22 22:21:19,927 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-22 22:21:20,298 WARN ScalaTest-run-running-LoadRddRawDataTest org.apache.spark.SparkContext - Using an existing SparkContext; some configuration may not take effect.
+2022-09-22 22:21:25,899 WARN ScalaTest-run-running-LoadRddRawDataTest org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-22 22:21:30,196 ERROR Executor task launch worker for task 8 org.apache.spark.executor.Executor - Exception in task 0.0 in stage 6.0 (TID 8)
+java.lang.NumberFormatException: For input string: "200,000"
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043) ~[na:1.8.0_342]
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110) ~[na:1.8.0_342]
+	at java.lang.Double.parseDouble(Double.java:538) ~[na:1.8.0_342]
+	at scala.collection.immutable.StringLike$class.toDouble(StringLike.scala:285) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.immutable.StringOps.toDouble(StringOps.scala:29) ~[scala-library-2.11.12.jar:na]
+	at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:207) ~[classes/:na]
+	at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:205) ~[classes/:na]
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.util.Utils$.getIteratorSize(Utils.scala:1835) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_342]
+2022-09-22 22:21:30,229 ERROR Executor task launch worker for task 9 org.apache.spark.executor.Executor - Exception in task 1.0 in stage 6.0 (TID 9)
+java.lang.NumberFormatException: For input string: "200,000"
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043) ~[na:1.8.0_342]
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110) ~[na:1.8.0_342]
+	at java.lang.Double.parseDouble(Double.java:538) ~[na:1.8.0_342]
+	at scala.collection.immutable.StringLike$class.toDouble(StringLike.scala:285) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.immutable.StringOps.toDouble(StringOps.scala:29) ~[scala-library-2.11.12.jar:na]
+	at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:207) ~[classes/:na]
+	at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:205) ~[classes/:na]
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.util.Utils$.getIteratorSize(Utils.scala:1835) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_342]
+2022-09-22 22:21:30,249 WARN task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Lost task 1.0 in stage 6.0 (TID 9, localhost, executor driver): java.lang.NumberFormatException: For input string: "200,000"
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.lang.Double.parseDouble(Double.java:538)
+	at scala.collection.immutable.StringLike$class.toDouble(StringLike.scala:285)
+	at scala.collection.immutable.StringOps.toDouble(StringOps.scala:29)
+	at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:207)
+	at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:205)
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236)
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at org.apache.spark.util.Utils$.getIteratorSize(Utils.scala:1835)
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162)
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2022-09-22 22:21:30,253 ERROR task-result-getter-1 org.apache.spark.scheduler.TaskSetManager - Task 1 in stage 6.0 failed 1 times; aborting job
+2022-09-22 22:47:32,963 WARN ScalaTest-run org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-22 22:47:33,722 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-22 22:47:34,133 WARN ScalaTest-run-running-LoadRddRawDataTest org.apache.spark.SparkContext - Using an existing SparkContext; some configuration may not take effect.
+2022-09-22 22:47:39,729 WARN ScalaTest-run-running-LoadRddRawDataTest org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-22 22:47:44,149 ERROR Executor task launch worker for task 8 org.apache.spark.executor.Executor - Exception in task 0.0 in stage 6.0 (TID 8)
+java.lang.NumberFormatException: For input string: "200,000"
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043) ~[na:1.8.0_342]
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110) ~[na:1.8.0_342]
+	at java.lang.Double.parseDouble(Double.java:538) ~[na:1.8.0_342]
+	at scala.collection.immutable.StringLike$class.toDouble(StringLike.scala:285) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.immutable.StringOps.toDouble(StringOps.scala:29) ~[scala-library-2.11.12.jar:na]
+	at edu.cse6250.main.Main$$anonfun$9.apply(Main.scala:212) ~[classes/:na]
+	at edu.cse6250.main.Main$$anonfun$9.apply(Main.scala:210) ~[classes/:na]
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.util.Utils$.getIteratorSize(Utils.scala:1835) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_342]
+2022-09-22 22:47:44,189 ERROR Executor task launch worker for task 9 org.apache.spark.executor.Executor - Exception in task 1.0 in stage 6.0 (TID 9)
+java.lang.NumberFormatException: For input string: "200,000"
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043) ~[na:1.8.0_342]
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110) ~[na:1.8.0_342]
+	at java.lang.Double.parseDouble(Double.java:538) ~[na:1.8.0_342]
+	at scala.collection.immutable.StringLike$class.toDouble(StringLike.scala:285) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.immutable.StringOps.toDouble(StringOps.scala:29) ~[scala-library-2.11.12.jar:na]
+	at edu.cse6250.main.Main$$anonfun$9.apply(Main.scala:212) ~[classes/:na]
+	at edu.cse6250.main.Main$$anonfun$9.apply(Main.scala:210) ~[classes/:na]
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236) ~[spark-sql_2.11-2.3.0.jar:2.3.0]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410) ~[scala-library-2.11.12.jar:na]
+	at org.apache.spark.util.Utils$.getIteratorSize(Utils.scala:1835) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_342]
+2022-09-22 22:47:44,190 WARN task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Lost task 0.0 in stage 6.0 (TID 8, localhost, executor driver): java.lang.NumberFormatException: For input string: "200,000"
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2043)
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.lang.Double.parseDouble(Double.java:538)
+	at scala.collection.immutable.StringLike$class.toDouble(StringLike.scala:285)
+	at scala.collection.immutable.StringOps.toDouble(StringOps.scala:29)
+	at edu.cse6250.main.Main$$anonfun$9.apply(Main.scala:212)
+	at edu.cse6250.main.Main$$anonfun$9.apply(Main.scala:210)
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236)
+	at org.apache.spark.sql.execution.MapElementsExec$$anonfun$7$$anonfun$apply$1.apply(objects.scala:236)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:410)
+	at org.apache.spark.util.Utils$.getIteratorSize(Utils.scala:1835)
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162)
+	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)
+	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)
+	at org.apache.spark.scheduler.Task.run(Task.scala:109)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+2022-09-22 22:47:44,192 ERROR task-result-getter-0 org.apache.spark.scheduler.TaskSetManager - Task 0 in stage 6.0 failed 1 times; aborting job
+2022-09-22 22:54:19,271 WARN ScalaTest-run org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-22 22:54:19,982 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-22 22:54:20,342 WARN ScalaTest-run-running-LoadRddRawDataTest org.apache.spark.SparkContext - Using an existing SparkContext; some configuration may not take effect.
+2022-09-22 22:54:25,798 WARN ScalaTest-run-running-LoadRddRawDataTest org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.

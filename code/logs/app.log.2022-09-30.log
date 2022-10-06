@@ -1,0 +1,311 @@
+2022-09-30 12:31:51,650 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 12:31:58,424 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-30 16:50:52,515 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 16:50:53,288 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 16:50:59,497 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-30 17:02:37,851 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 17:02:38,578 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:02:44,344 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-30 17:11:44,180 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 17:11:44,989 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:11:50,659 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-30 17:17:00,547 WARN ScalaTest-run org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 17:17:01,339 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:17:01,745 WARN ScalaTest-run-running-LoadRddRawDataTest org.apache.spark.SparkContext - Using an existing SparkContext; some configuration may not take effect.
+2022-09-30 17:17:07,200 WARN ScalaTest-run-running-LoadRddRawDataTest org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-30 17:17:35,453 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 17:17:36,142 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:17:41,903 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-30 17:20:08,709 WARN pool-1-thread-1 org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 17:20:09,211 WARN pool-1-thread-1 org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:20:09,909 WARN pool-1-thread-1 org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:20:10,000 WARN pool-1-thread-1-ScalaTest-running-LoadRddRawDataTest org.apache.spark.SparkContext - Using an existing SparkContext; some configuration may not take effect.
+2022-09-30 17:20:14,840 WARN pool-1-thread-1-ScalaTest-running-LoadRddRawDataTest org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-30 17:20:21,061 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:20:21,305 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:20:21,482 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:20:21,646 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:20:21,815 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:20:21,956 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:20:22,157 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:20:22,290 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:20:22,451 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:20:22,618 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:20:22,771 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:20:22,942 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:20:23,075 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:20:23,259 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:20:23,393 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:20:23,632 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:20:23,859 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:20:24,024 WARN pool-1-thread-1-ScalaTest-running-T2dmPhenotypeTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:20:38,195 WARN pool-1-thread-1-ScalaTest-running-T2dmPhenotypeTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:20:58,279 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 17:20:58,748 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:21:03,898 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-30 17:21:21,601 INFO Executor task launch worker for task 992 com.github.fommil.jni.JniLoader - successfully loaded /var/folders/0m/sgtzvrmn15x_v19s80cfb06r0000gn/T/jniloader1814925466332232749netlib-native_system-osx-x86_64.jnilib
+2022-09-30 17:21:21,869 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_system-osx-x86_64.jnilib
+2022-09-30 17:28:53,947 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 17:28:54,456 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:28:59,992 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-30 17:29:16,946 ERROR dispatcher-event-loop-3 org.apache.spark.scheduler.TaskSchedulerImpl - Exception in statusUpdate
+java.util.concurrent.RejectedExecutionException: Task org.apache.spark.scheduler.TaskResultGetter$$anon$3@61de76ee rejected from java.util.concurrent.ThreadPoolExecutor@39cd9122[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 955]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063) ~[na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1379) [na:1.8.0_342]
+	at org.apache.spark.scheduler.TaskResultGetter.enqueueSuccessfulTask(TaskResultGetter.scala:61) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.TaskSchedulerImpl.liftedTree2$1(TaskSchedulerImpl.scala:413) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.TaskSchedulerImpl.statusUpdate(TaskSchedulerImpl.scala:394) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.local.LocalEndpoint$$anonfun$receive$1.applyOrElse(LocalSchedulerBackend.scala:67) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox$$anonfun$process$1.apply$mcV$sp(Inbox.scala:117) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox.safelyCall(Inbox.scala:205) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox.process(Inbox.scala:101) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Dispatcher$MessageLoop.run(Dispatcher.scala:221) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_342]
+2022-09-30 17:29:16,946 ERROR Executor task launch worker for task 960 org.apache.spark.executor.Executor - Exception in task 5.0 in stage 80.0 (TID 960)
+java.io.FileNotFoundException: /private/var/folders/0m/sgtzvrmn15x_v19s80cfb06r0000gn/T/blockmgr-69cad284-6555-4202-8625-306298088b67/35/shuffle_60_5_0.index.03c623bb-37f3-402a-935d-6a2fff9fa953 (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_342]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[na:1.8.0_342]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[na:1.8.0_342]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[na:1.8.0_342]
+	at org.apache.spark.shuffle.IndexShuffleBlockResolver.writeIndexFileAndCommit(IndexShuffleBlockResolver.scala:144) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.shuffle.sort.SortShuffleWriter.write(SortShuffleWriter.scala:73) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:109) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_342]
+2022-09-30 17:29:16,969 ERROR dispatcher-event-loop-3 org.apache.spark.scheduler.TaskSchedulerImpl - Exception in statusUpdate
+java.util.concurrent.RejectedExecutionException: Task org.apache.spark.scheduler.TaskResultGetter$$anon$3@777b6ea8 rejected from java.util.concurrent.ThreadPoolExecutor@39cd9122[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 955]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063) ~[na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1379) [na:1.8.0_342]
+	at org.apache.spark.scheduler.TaskResultGetter.enqueueSuccessfulTask(TaskResultGetter.scala:61) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.TaskSchedulerImpl.liftedTree2$1(TaskSchedulerImpl.scala:413) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.TaskSchedulerImpl.statusUpdate(TaskSchedulerImpl.scala:394) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.local.LocalEndpoint$$anonfun$receive$1.applyOrElse(LocalSchedulerBackend.scala:67) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox$$anonfun$process$1.apply$mcV$sp(Inbox.scala:117) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox.safelyCall(Inbox.scala:205) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox.process(Inbox.scala:101) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Dispatcher$MessageLoop.run(Dispatcher.scala:221) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_342]
+2022-09-30 17:29:16,972 ERROR dispatcher-event-loop-3 org.apache.spark.scheduler.TaskSchedulerImpl - Exception in statusUpdate
+java.util.concurrent.RejectedExecutionException: Task org.apache.spark.scheduler.TaskResultGetter$$anon$3@40b3910e rejected from java.util.concurrent.ThreadPoolExecutor@39cd9122[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 955]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063) ~[na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1379) [na:1.8.0_342]
+	at org.apache.spark.scheduler.TaskResultGetter.enqueueSuccessfulTask(TaskResultGetter.scala:61) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.TaskSchedulerImpl.liftedTree2$1(TaskSchedulerImpl.scala:413) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.TaskSchedulerImpl.statusUpdate(TaskSchedulerImpl.scala:394) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.local.LocalEndpoint$$anonfun$receive$1.applyOrElse(LocalSchedulerBackend.scala:67) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox$$anonfun$process$1.apply$mcV$sp(Inbox.scala:117) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox.safelyCall(Inbox.scala:205) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox.process(Inbox.scala:101) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Dispatcher$MessageLoop.run(Dispatcher.scala:221) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_342]
+2022-09-30 17:29:16,972 ERROR dispatcher-event-loop-3 org.apache.spark.scheduler.TaskSchedulerImpl - Exception in statusUpdate
+java.util.concurrent.RejectedExecutionException: Task org.apache.spark.scheduler.TaskResultGetter$$anon$3@29495c8e rejected from java.util.concurrent.ThreadPoolExecutor@39cd9122[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 955]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063) ~[na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1379) [na:1.8.0_342]
+	at org.apache.spark.scheduler.TaskResultGetter.enqueueSuccessfulTask(TaskResultGetter.scala:61) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.TaskSchedulerImpl.liftedTree2$1(TaskSchedulerImpl.scala:413) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.TaskSchedulerImpl.statusUpdate(TaskSchedulerImpl.scala:394) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.local.LocalEndpoint$$anonfun$receive$1.applyOrElse(LocalSchedulerBackend.scala:67) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox$$anonfun$process$1.apply$mcV$sp(Inbox.scala:117) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox.safelyCall(Inbox.scala:205) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox.process(Inbox.scala:101) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Dispatcher$MessageLoop.run(Dispatcher.scala:221) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_342]
+2022-09-30 17:29:16,972 ERROR dispatcher-event-loop-3 org.apache.spark.scheduler.TaskSchedulerImpl - Exception in statusUpdate
+java.util.concurrent.RejectedExecutionException: Task org.apache.spark.scheduler.TaskResultGetter$$anon$3@5a4388e0 rejected from java.util.concurrent.ThreadPoolExecutor@39cd9122[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 955]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063) ~[na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1379) [na:1.8.0_342]
+	at org.apache.spark.scheduler.TaskResultGetter.enqueueSuccessfulTask(TaskResultGetter.scala:61) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.TaskSchedulerImpl.liftedTree2$1(TaskSchedulerImpl.scala:413) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.TaskSchedulerImpl.statusUpdate(TaskSchedulerImpl.scala:394) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.local.LocalEndpoint$$anonfun$receive$1.applyOrElse(LocalSchedulerBackend.scala:67) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox$$anonfun$process$1.apply$mcV$sp(Inbox.scala:117) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox.safelyCall(Inbox.scala:205) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox.process(Inbox.scala:101) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Dispatcher$MessageLoop.run(Dispatcher.scala:221) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_342]
+2022-09-30 17:29:16,972 ERROR dispatcher-event-loop-3 org.apache.spark.scheduler.TaskSchedulerImpl - Exception in statusUpdate
+java.util.concurrent.RejectedExecutionException: Task org.apache.spark.scheduler.TaskResultGetter$$anon$3@76e1a32e rejected from java.util.concurrent.ThreadPoolExecutor@39cd9122[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 955]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063) ~[na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1379) [na:1.8.0_342]
+	at org.apache.spark.scheduler.TaskResultGetter.enqueueSuccessfulTask(TaskResultGetter.scala:61) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.TaskSchedulerImpl.liftedTree2$1(TaskSchedulerImpl.scala:413) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.TaskSchedulerImpl.statusUpdate(TaskSchedulerImpl.scala:394) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.local.LocalEndpoint$$anonfun$receive$1.applyOrElse(LocalSchedulerBackend.scala:67) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox$$anonfun$process$1.apply$mcV$sp(Inbox.scala:117) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox.safelyCall(Inbox.scala:205) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox.process(Inbox.scala:101) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Dispatcher$MessageLoop.run(Dispatcher.scala:221) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_342]
+2022-09-30 17:29:16,973 ERROR dispatcher-event-loop-3 org.apache.spark.scheduler.TaskSchedulerImpl - Exception in statusUpdate
+java.util.concurrent.RejectedExecutionException: Task org.apache.spark.scheduler.TaskResultGetter$$anon$3@2a86671d rejected from java.util.concurrent.ThreadPoolExecutor@39cd9122[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 955]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063) ~[na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1379) [na:1.8.0_342]
+	at org.apache.spark.scheduler.TaskResultGetter.enqueueSuccessfulTask(TaskResultGetter.scala:61) ~[spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.TaskSchedulerImpl.liftedTree2$1(TaskSchedulerImpl.scala:413) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.TaskSchedulerImpl.statusUpdate(TaskSchedulerImpl.scala:394) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.scheduler.local.LocalEndpoint$$anonfun$receive$1.applyOrElse(LocalSchedulerBackend.scala:67) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox$$anonfun$process$1.apply$mcV$sp(Inbox.scala:117) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox.safelyCall(Inbox.scala:205) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Inbox.process(Inbox.scala:101) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.rpc.netty.Dispatcher$MessageLoop.run(Dispatcher.scala:221) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_342]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_342]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_342]
+2022-09-30 17:29:17,078 ERROR Thread-1 org.apache.spark.storage.DiskBlockManager - Exception while deleting local spark dir: /private/var/folders/0m/sgtzvrmn15x_v19s80cfb06r0000gn/T/blockmgr-69cad284-6555-4202-8625-306298088b67
+java.io.IOException: Failed to delete: /private/var/folders/0m/sgtzvrmn15x_v19s80cfb06r0000gn/T/blockmgr-69cad284-6555-4202-8625-306298088b67
+	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1070) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.storage.DiskBlockManager$$anonfun$org$apache$spark$storage$DiskBlockManager$$doStop$1.apply(DiskBlockManager.scala:178) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.storage.DiskBlockManager$$anonfun$org$apache$spark$storage$DiskBlockManager$$doStop$1.apply(DiskBlockManager.scala:174) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33) [scala-library-2.11.12.jar:na]
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:186) [scala-library-2.11.12.jar:na]
+	at org.apache.spark.storage.DiskBlockManager.org$apache$spark$storage$DiskBlockManager$$doStop(DiskBlockManager.scala:174) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.storage.DiskBlockManager.stop(DiskBlockManager.scala:169) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.storage.BlockManager.stop(BlockManager.scala:1544) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkEnv.stop(SparkEnv.scala:90) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$stop$11.apply$mcV$sp(SparkContext.scala:1940) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.util.Utils$.tryLogNonFatalError(Utils.scala:1357) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext.stop(SparkContext.scala:1939) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.SparkContext$$anonfun$2.apply$mcV$sp(SparkContext.scala:572) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:216) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(ShutdownHookManager.scala:188) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1$$anonfun$apply$mcV$sp$1.apply(ShutdownHookManager.scala:188) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1$$anonfun$apply$mcV$sp$1.apply(ShutdownHookManager.scala:188) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1988) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1.apply$mcV$sp(ShutdownHookManager.scala:188) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1.apply(ShutdownHookManager.scala:188) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1.apply(ShutdownHookManager.scala:188) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at scala.util.Try$.apply(Try.scala:192) [scala-library-2.11.12.jar:na]
+	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:188) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:178) [spark-core_2.11-2.3.0.jar:2.3.0]
+	at org.apache.hadoop.util.ShutdownHookManager$1.run(ShutdownHookManager.java:54) [hadoop-common-2.7.5.jar:na]
+2022-09-30 17:35:06,615 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 17:35:07,083 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:35:12,333 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-30 17:35:30,684 INFO Executor task launch worker for task 1011 com.github.fommil.jni.JniLoader - successfully loaded /var/folders/0m/sgtzvrmn15x_v19s80cfb06r0000gn/T/jniloader5796980051225573575netlib-native_system-osx-x86_64.jnilib
+2022-09-30 17:35:30,931 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_system-osx-x86_64.jnilib
+2022-09-30 17:53:05,242 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 17:53:05,779 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 17:53:11,722 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-30 17:53:30,777 INFO Executor task launch worker for task 1016 com.github.fommil.jni.JniLoader - successfully loaded /var/folders/0m/sgtzvrmn15x_v19s80cfb06r0000gn/T/jniloader8648941143409616192netlib-native_system-osx-x86_64.jnilib
+2022-09-30 17:53:31,055 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_system-osx-x86_64.jnilib
+2022-09-30 18:08:23,297 WARN ScalaTest-run org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 18:08:24,035 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 18:08:24,443 WARN ScalaTest-run-running-LoadRddRawDataTest org.apache.spark.SparkContext - Using an existing SparkContext; some configuration may not take effect.
+2022-09-30 18:08:30,038 WARN ScalaTest-run-running-LoadRddRawDataTest org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-30 18:08:54,313 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 18:08:54,840 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 18:09:00,616 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-30 18:09:19,791 INFO Executor task launch worker for task 1014 com.github.fommil.jni.JniLoader - successfully loaded /var/folders/0m/sgtzvrmn15x_v19s80cfb06r0000gn/T/jniloader2810192547747263556netlib-native_system-osx-x86_64.jnilib
+2022-09-30 18:09:20,038 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_system-osx-x86_64.jnilib
+2022-09-30 18:12:12,747 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 18:12:13,220 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 18:12:18,527 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-30 18:12:37,174 INFO Executor task launch worker for task 1025 com.github.fommil.jni.JniLoader - successfully loaded /var/folders/0m/sgtzvrmn15x_v19s80cfb06r0000gn/T/jniloader598139570388229835netlib-native_system-osx-x86_64.jnilib
+2022-09-30 18:12:37,465 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_system-osx-x86_64.jnilib
+2022-09-30 18:13:39,209 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 18:13:39,675 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 18:13:44,861 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-30 18:14:02,373 INFO Executor task launch worker for task 977 com.github.fommil.jni.JniLoader - successfully loaded /var/folders/0m/sgtzvrmn15x_v19s80cfb06r0000gn/T/jniloader9172454816028328590netlib-native_system-osx-x86_64.jnilib
+2022-09-30 18:14:02,603 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_system-osx-x86_64.jnilib
+2022-09-30 18:14:26,381 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 18:14:27,071 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 18:14:32,996 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-30 18:28:58,890 WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 18:28:59,454 WARN main org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 18:29:05,105 WARN main org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-30 18:29:22,985 INFO Executor task launch worker for task 981 com.github.fommil.jni.JniLoader - successfully loaded /var/folders/0m/sgtzvrmn15x_v19s80cfb06r0000gn/T/jniloader3742137535754104514netlib-native_system-osx-x86_64.jnilib
+2022-09-30 18:29:23,264 INFO main com.github.fommil.jni.JniLoader - already loaded netlib-native_system-osx-x86_64.jnilib
+2022-09-30 18:29:45,322 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 18:29:46,009 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 18:29:51,814 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-30 18:33:37,853 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 18:33:38,547 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 18:33:44,085 WARN ScalaTest-run-running-T2dmPhenotypeTest org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-30 20:23:42,963 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 20:23:43,814 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:23:54,107 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 20:23:54,842 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:23:56,243 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:23:56,462 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:23:56,648 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:23:56,923 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:23:57,296 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:23:57,565 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:23:57,802 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:23:58,017 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:23:58,241 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:23:58,530 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:23:59,005 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:23:59,339 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:23:59,675 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:23:59,940 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:24:00,392 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:24:00,920 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:00,428 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 20:31:01,292 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:02,653 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:02,898 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:03,156 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:03,421 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:03,716 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:03,965 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:04,191 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:04,401 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:04,609 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:04,930 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:05,371 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:05,702 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:05,985 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:06,214 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:06,628 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:07,126 WARN ScalaTest-run-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:20,652 WARN pool-1-thread-1 org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 20:31:21,241 WARN pool-1-thread-1 org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:22,058 WARN pool-1-thread-1 org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:22,137 WARN pool-1-thread-1-ScalaTest-running-LoadRddRawDataTest org.apache.spark.SparkContext - Using an existing SparkContext; some configuration may not take effect.
+2022-09-30 20:31:27,500 WARN pool-1-thread-1-ScalaTest-running-LoadRddRawDataTest org.apache.spark.util.Utils - Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.debug.maxToStringFields' in SparkEnv.conf.
+2022-09-30 20:31:33,694 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:34,132 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:34,354 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:34,585 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:34,802 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:35,042 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:35,248 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:35,434 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:35,591 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:35,811 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:36,058 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:36,268 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:36,490 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:36,796 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:36,993 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:37,272 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:37,789 WARN pool-1-thread-1-ScalaTest-running-FeatureConstructionTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:38,111 WARN pool-1-thread-1-ScalaTest-running-T2dmPhenotypeTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 20:31:51,077 WARN pool-1-thread-1-ScalaTest-running-T2dmPhenotypeTest org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2022-09-30 22:13:32,486 WARN ScalaTest-run org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-09-30 22:13:33,281 WARN ScalaTest-run org.apache.spark.util.Utils - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.

@@ -1,0 +1,135 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mFormatting 1 Scala source ProjectRef(uri("file:/Users/raefang/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/CSE6250/hw3-release/code/"), "big-data-hw3")(compile) ...[0m
+[0m[[0m[0minfo[0m] [0m[0mReformatted 1 Scala source ProjectRef(uri("file:/Users/raefang/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/CSE6250/hw3-release/code/"), "big-data-hw3")(compile).[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/raefang/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/CSE6250/hw3-release/code/target/scala-2.11/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMetricsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Testing your metrics getPurity calculation *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  0 did not equal 1 (MetricsTest.scala:46)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLoadRddRawDataTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Testing your data loader *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  org.apache.spark.SparkException: Job aborted due to stage failure: Task 0 in stage 6.0 failed 1 times, most recent failure: Lost task 0.0 in stage 6.0 (TID 8, localhost, executor driver): java.lang.NullPointerException[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at scala.collection.immutable.StringOps$.length$extension(StringOps.scala:47)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at scala.collection.immutable.StringOps.length(StringOps.scala:47)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at scala.collection.IndexedSeqOptimized$class.isEmpty(IndexedSeqOptimized.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at scala.collection.immutable.StringOps.isEmpty(StringOps.scala:29)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at scala.collection.TraversableOnce$class.nonEmpty(TraversableOnce.scala:111)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at scala.collection.immutable.StringOps.nonEmpty(StringOps.scala:29)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:204)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:204)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at org.apache.spark.sql.catalyst.expressions.GeneratedClass$SpecificPredicate.eval(Unknown Source)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at org.apache.spark.sql.execution.FilterExec$$anonfun$18$$anonfun$apply$2.apply(basicPhysicalOperators.scala:217)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at org.apache.spark.sql.execution.FilterExec$$anonfun$18$$anonfun$apply$2.apply(basicPhysicalOperators.scala:216)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at scala.collection.Iterator$$anon$13.hasNext(Iterator.scala:464)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at scala.collection.Iterator$$anon$11.hasNext(Iterator.scala:409)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at org.apache.spark.util.Utils$.getIteratorSize(Utils.scala:1833)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at org.apache.spark.rdd.RDD$$anonfun$count$1.apply(RDD.scala:1162)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at org.apache.spark.SparkContext$$anonfun$runJob$5.apply(SparkContext.scala:2067)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at org.apache.spark.scheduler.Task.run(Task.scala:109)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:345)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m	at java.lang.Thread.run(Thread.java:750)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mDriver stacktrace:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.scheduler.DAGScheduler.org$apache$spark$scheduler$DAGScheduler$$failJobAndIndependentStages(DAGScheduler.scala:1599)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1587)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.scheduler.DAGScheduler$$anonfun$abortStage$1.apply(DAGScheduler.scala:1586)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.scheduler.DAGScheduler.abortStage(DAGScheduler.scala:1586)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:831)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.scheduler.DAGScheduler$$anonfun$handleTaskSetFailed$1.apply(DAGScheduler.scala:831)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Option.foreach(Option.scala:257)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.scheduler.DAGScheduler.handleTaskSetFailed(DAGScheduler.scala:831)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Cause: java.lang.NullPointerException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.StringOps$.length$extension(StringOps.scala:47)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.StringOps.length(StringOps.scala:47)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.IndexedSeqOptimized$class.isEmpty(IndexedSeqOptimized.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.StringOps.isEmpty(StringOps.scala:29)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.TraversableOnce$class.nonEmpty(TraversableOnce.scala:111)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.StringOps.nonEmpty(StringOps.scala:29)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:204)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at edu.cse6250.main.Main$$anonfun$8.apply(Main.scala:204)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.sql.catalyst.expressions.GeneratedClass$SpecificPredicate.eval(Unknown Source)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.spark.sql.execution.FilterExec$$anonfun$18$$anonfun$apply$2.apply(basicPhysicalOperators.scala:217)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFeatureConstructionTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructDiagnosticFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate one event *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(((patient,diagnostics),1.0)) was not equal to Array(((patient1,code1),1.0)) (FeatureConstructionTest.scala:48)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructDiagnosticFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate two different events *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Map((patient,diagnostics) -> 1.0) was not equal to Map((patient1,code1) -> 1.0, (patient1,code2) -> 1.0) (FeatureConstructionTest.scala:61)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructDiagnosticFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate two same events *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(((patient,diagnostics),1.0)) was not equal to Array(((patient1,code1),2.0)) (FeatureConstructionTest.scala:73)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructDiagnosticFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate three events with duplication *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Map((patient,diagnostics) -> 1.0) was not equal to Map((patient1,code1) -> 2.0, (patient1,code2) -> 1.0) (FeatureConstructionTest.scala:87)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructDiagnosticFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should filter *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(((patient,diagnostics),1.0)) was not equal to Array(((patient1,code2),1.0)) (FeatureConstructionTest.scala:100)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructMedicationFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate one event *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(((patient,med),1.0)) was not equal to Array(((patient1,code1),1.0)) (FeatureConstructionTest.scala:119)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructMedicationFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate two different events *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Map((patient,med) -> 1.0) was not equal to Map((patient1,code1) -> 1.0, (patient1,code2) -> 1.0) (FeatureConstructionTest.scala:132)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructMedicationFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate two same events *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(((patient,med),1.0)) was not equal to Array(((patient1,code1),2.0)) (FeatureConstructionTest.scala:144)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructMedicationFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate three events with duplication *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Map((patient,med) -> 1.0) was not equal to Map((patient1,code1) -> 1.0, (patient1,code2) -> 2.0) (FeatureConstructionTest.scala:158)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructMedicationFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should filter *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(((patient,med),1.0)) was not equal to Array(((patient1,code2),2.0)) (FeatureConstructionTest.scala:171)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructLabFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate one event *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(((patient,lab),1.0)) was not equal to Array(((patient1,code1),42.0)) (FeatureConstructionTest.scala:190)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructLabFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate two different events *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Map((patient,lab) -> 1.0) was not equal to Map((patient1,code1) -> 42.0, (patient1,code2) -> 24.0) (FeatureConstructionTest.scala:203)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructLabFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate two same events *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(((patient,lab),1.0)) was not equal to Array(((patient1,code1),33.0)) (FeatureConstructionTest.scala:215)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructLabFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should aggregate three events with duplication *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Map((patient,lab) -> 1.0) was not equal to Map((patient1,code1) -> 33.0, (patient1,code2) -> 7475.0) (FeatureConstructionTest.scala:229)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructLabFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should filter *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array(((patient,lab),1.0)) was not equal to Array(((patient1,code2),7475.0)) (FeatureConstructionTest.scala:242)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstruct[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should give unique ID to codes *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Array((Patient-NO-1,(10,[0,2,4],[1.0,2.0,3.0])), (Patient-NO-2,(10,[0,2,4],[1.0,2.0,3.0])), (Patient-NO-3,(10,[0,2,4],[1.0,2.0,3.0])), (Patient-NO-4,(10,[0,2,4],[1.0,2.0,3.0])), (Patient-NO-5,(10,[0,2,4],[1.0,2.0,3.0])), (Patient-NO-6,(10,[0,2,4],[1.0,2.0,3.0])), (Patient-NO-7,(10,[0,2,4],[1.0,2.0,3.0])), (Patient-NO-8,(10,[0,2,4],[1.0,2.0,3.0]))) was not equal to Array((patient1,[24.0,42.0])) (FeatureConstructionTest.scala:261)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstruct[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should give sparse vectors *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Map("Patient-NO-8" -> (10,[0,2,4],[1.0,2.0,3.0]), "Patient-NO-2" -> (10,[0,2,4],[1.0,2.0,3.0]), "Patient-NO-5" -> (10,[0,2,4],[1.0,2.0,3.0]), "Patient-NO-4" -> (10,[0,2,4],[1.0,2.0,3.0]), "Patient-NO-7" -> (10,[0,2,4],[1.0,2.0,3.0]), "Patient-NO-1" -> (10,[0,2,4],[1.0,2.0,3.0]), "Patient-NO-3" -> (10,[0,2,4],[1.0,2.0,3.0]), "Patient-NO-6" -> (10,[0,2,4],[1.0,2.0,3.0])) was not equal to Map("patient1" -> (3,[0,2],[42.0,24.0]), "patient2" -> (3,[1],[12.0])) (FeatureConstructionTest.scala:274)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mT2dmPhenotypeTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mtransform[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should give expected results *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  3 was not equal to 976 (T2dmPhenotypeTest.scala:43)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mstat_calc[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should give expected results *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  0.9892443742699619 was not less than or equal to 0.01 (T2dmPhenotypeTest.scala:64)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 22 seconds, 592 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 21[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 21, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 21 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	edu.cse6250.phenotyping.T2dmPhenotypeTest[0m
+[0m[[0m[31merror[0m] [0m[0m	edu.cse6250.main.LoadRddRawDataTest[0m
+[0m[[0m[31merror[0m] [0m[0m	edu.cse6250.features.FeatureConstructionTest[0m
+[0m[[0m[31merror[0m] [0m[0m	edu.cse6250.clustering.MetricsTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 26 s, completed Sep 21, 2022 11:22:30 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

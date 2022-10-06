@@ -1,0 +1,66 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 4 initial tasks for 4 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(edu.cse6250.clustering.MetricsTest, sbt.ForkMain$SubclassFingerscan@6a4f787b, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMetricsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Testing your metrics getPurity calculation[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(edu.cse6250.main.LoadRddRawDataTest, sbt.ForkMain$SubclassFingerscan@685cb137, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLoadRddRawDataTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Testing your data loader[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(edu.cse6250.features.FeatureConstructionTest, sbt.ForkMain$SubclassFingerscan@6a41eaa2, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFeatureConstructionTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructDiagnosticFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should aggregate one event[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructDiagnosticFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should aggregate two different events[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructDiagnosticFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should aggregate two same events[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructDiagnosticFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should aggregate three events with duplication[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructDiagnosticFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should filter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructMedicationFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should aggregate one event[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructMedicationFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should aggregate two different events[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructMedicationFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should aggregate two same events[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructMedicationFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should aggregate three events with duplication[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructMedicationFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should filter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructLabFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should aggregate one event[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructLabFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should aggregate two different events[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructLabFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should aggregate two same events[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructLabFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should aggregate three events with duplication[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstructLabFeatureTuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should filter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstruct[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should give unique ID to codes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mconstruct[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should give sparse vectors[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 17 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(edu.cse6250.phenotyping.T2dmPhenotypeTest, sbt.ForkMain$SubclassFingerscan@7cd62f43, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mT2dmPhenotypeTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mtransform[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should give expected results[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mstat_calc[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should give expected results[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 43 seconds, 371 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 21[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 21, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu.cse6250.phenotyping.T2dmPhenotypeTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu.cse6250.main.LoadRddRawDataTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu.cse6250.features.FeatureConstructionTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	edu.cse6250.clustering.MetricsTest[0m
