@@ -1,7 +1,6 @@
 package edu.cse6250.phenotyping
 
 import edu.cse6250.model.{ Diagnostic, LabResult, Medication }
-import edu.cse6250.model.{ Diagnostic, LabResult, Medication }
 import org.apache.spark.rdd.RDD
 
 /**

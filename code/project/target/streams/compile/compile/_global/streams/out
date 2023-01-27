@@ -1,16 +1,16 @@
-[0m[[0m[33mwarn[0m] [0m[0m/Users/raefang/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/CSE6250/hw3-release/code/project/CompileSettings.scala:26:18: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/raefang/Local Document/Big Data Health/hw3-release/code/project/CompileSettings.scala:26:18: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash[0m
 [0m[[0m[33mwarn[0m] [0m[0m    compileOrder in Compile := CompileOrder.Mixed,[0m
 [0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/raefang/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/CSE6250/hw3-release/code/project/CompileSettings.scala:27:18: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/raefang/Local Document/Big Data Health/hw3-release/code/project/CompileSettings.scala:27:18: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash[0m
 [0m[[0m[33mwarn[0m] [0m[0m    compileOrder in Test := CompileOrder.Mixed,[0m
 [0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/raefang/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/CSE6250/hw3-release/code/project/CompileSettings.scala:28:17: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/raefang/Local Document/Big Data Health/hw3-release/code/project/CompileSettings.scala:28:17: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash[0m
 [0m[[0m[33mwarn[0m] [0m[0m    testOptions in Test += Tests.Argument(TestFrameworks.Specs2, "junitxml", "console"),[0m
 [0m[[0m[33mwarn[0m] [0m[0m                ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/raefang/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/CSE6250/hw3-release/code/project/CompileSettings.scala:29:19: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/raefang/Local Document/Big Data Health/hw3-release/code/project/CompileSettings.scala:29:19: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash[0m
 [0m[[0m[33mwarn[0m] [0m[0m    scalacOptions in Test ~= { (options: Seq[String]) =>[0m
 [0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/raefang/Library/CloudStorage/OneDrive-GeorgiaInstituteofTechnology/CSE6250/hw3-release/code/project/CompileSettings.scala:32:23: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/raefang/Local Document/Big Data Health/hw3-release/code/project/CompileSettings.scala:32:23: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash[0m
 [0m[[0m[33mwarn[0m] [0m[0m    parallelExecution in Test := false,[0m
 [0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
 [0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m

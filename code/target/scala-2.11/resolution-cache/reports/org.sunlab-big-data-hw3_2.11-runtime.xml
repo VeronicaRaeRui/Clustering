@@ -7,7 +7,7 @@
 		revision="1.1.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20220922215714"/>
+		date="20221019164001"/>
 	<dependencies>
 		<module organisation="org.apache.spark" name="spark-hive_2.11">
 			<revision name="2.3.0" status="release" pubdate="20180222142925" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="211">

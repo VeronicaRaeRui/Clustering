@@ -4,7 +4,7 @@
 		module="big-data-hw3$sources"
 		revision="1.1.0"
 		status="integration"
-		publication="20220922215725"
+		publication="20221019164009"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
